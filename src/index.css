@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add to your global CSS */
+/* Add to your global CSS */
+.sticky {
+  position: sticky;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Ensure smooth image transitions */
+.bg-cover {
+  transition: background-image 0.3s ease-in-out;
+}
+
+/* Optional: Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+/* Add to your global CSS */
+#right-image-section {
+  transition: background-image 0.5s ease-in-out;
+}
+
+.right-image-section.transitioning {
+  opacity: 0.8;
+}
+
+/* Ensure the layout maintains proper spacing */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
