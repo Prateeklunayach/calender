@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
 
         </header> */}
 
-        <main className="pt-24 px-10 pl-2 w-full">
+        <main className=" px-10 pl-2 w-full">
           {React.cloneElement(children)}
         </main>
       </div>
